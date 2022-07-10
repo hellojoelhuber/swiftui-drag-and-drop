@@ -122,25 +122,25 @@ These examples are intended to showcase various implementations of drag-and-drop
 
 **Emoji Art.**
 
-[View the code.]() | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-emoji-art/)
+[View the code.](https://github.com/hellojoelhuber/drag-and-drop-emoji-art) | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-emoji-art/)
 
 This example shows a single drop receiver (the canvas) and multiple drag-and-drop objects (the emoji on the palette & the emoji on the canvas). 
 
 **To Do App.**
 
-[View the code.]() | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-todo-list/)
+[View the code.](https://github.com/hellojoelhuber/drag-and-drop-todo-list) | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-todo-list/)
 
 A todo list where each list object can be dragged on top of a "Complete" box or a "Trash" box. The "Add New" button is draggable on top of the list to add a new object.
 
 **Chess Board.**
 
-[View the code.]() | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-chess-drag-and-drop/)
+[View the code.](https://github.com/hellojoelhuber/drag-and-drop-chess) | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-chess-drag-and-drop/)
 
 This example shows how to implement drag-and-drop chess pieces on the chess board. The only movement rules are basic directional rules. The movement rules do not enforce check, checkmate, turn order, or board-wrapping (that is, a bishop on a3 can move to h3 [as described here](https://www.joelhuber.com/2022/05/16/modeling-the-chess-board.html)). 
 
 **Card Game.**
 
-[View the code.]() | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-drag-and-drop-card-game/)
+[View the code.](https://github.com/hellojoelhuber/drag-and-drop-card-game) | [Read the Documentation.](https://www.joelhuber.com/software-documentation/documentation-drag-and-drop-card-game/)
 
 In this game, players can play a card in one of three playable areas: here, there, or yonder. Each card can be played in 1 or more of these areas. 
 
