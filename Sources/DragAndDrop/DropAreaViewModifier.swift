@@ -10,15 +10,14 @@ struct DropAreaOverlay<T: DropReceivableObservableObject>: ViewModifier {
             .overlay(
                 GeometryReader { geo in
                     Color.clear
-                    #if os(iOS)
-                        .onRotate { _ in
-                            model.setDropArea(geo.frame(in: .global), on: dropReceiver)
-                        }
-                    #else
                         .onAppear {
                             model.setDropArea(geo.frame(in: .global), on: dropReceiver)
                         }
-                    #endif
+                        #if os(iOS)
+                        .onRotate { _ in
+                            model.setDropArea(geo.frame(in: .global), on: dropReceiver)
+                        }
+                        #endif
                 }
             )
     }
