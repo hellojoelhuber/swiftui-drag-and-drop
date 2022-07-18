@@ -144,3 +144,8 @@ This example shows how to implement drag-and-drop chess pieces on the chess boar
 
 In this game, players can play a card in one of three playable areas: here, there, or yonder. Each card can be played in 1 or more of these areas. 
 
+**Working with Non-Rectangular Drop Areas.**
+
+[Read the tutorial.](https://www.joelhuber.com/2022/07/18/drag-and-drop-with-irregular-shapes.html)
+
+This tutorial covers working with non-rectangular drop areas on a map or in a non-rectangular grid.
