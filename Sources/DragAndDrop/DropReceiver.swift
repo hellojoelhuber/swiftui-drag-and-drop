@@ -1,6 +1,7 @@
 
 import SwiftUI
 
+#warning("TODO: Turn this into a macro!")
 public protocol DropReceiver {
     var dropArea: CGRect? { get set }
     mutating func updateDropArea(with newDropArea: CGRect)
